@@ -1,5 +1,8 @@
 # Multiepg tower of hanoi problem simulation
 
+<p align="center">
+  <img height="126px" width="450px" alt="Screenshot" src="https://cdn.jsdelivr.net/gh/ayonious/tower-of-hanoi-simulation@master/documentation/hanoisimulation.gif">
+</p>
 
 ## input
 1. number or pegs
