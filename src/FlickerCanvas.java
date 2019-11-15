@@ -164,13 +164,12 @@ public class FlickerCanvas extends Canvas implements Runnable {
 
 		repaint();
 		looper.sleep(3);
-
 	}
 
 	public void run() {
 		try {
 
-			int f, t, step, i, j, id, x, y, X, Y, xx, yy, zz;
+			int f, t, id, x, y, X, Y, xx, yy, zz;
 
 			for (Curr_step = 0; Curr_step < Total_steps; Curr_step++) {
 
