@@ -45,7 +45,7 @@ class Flicker extends Frame
         fc.start();
         add(fc);
         pack();
-        show();
+        setVisible(true);
     }
 }
 
