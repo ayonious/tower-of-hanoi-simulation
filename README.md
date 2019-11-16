@@ -13,7 +13,7 @@ Animated simulation of discs getting sorted out
 
 ## Running instructions:
 
-1. cd multi_hanoi_my_version
+1. cd src
 2. javac Flicker.java
 3. java Flicker
 4. now input the number of pegs and discs and enter
