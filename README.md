@@ -1,20 +1,28 @@
-# Multiepg tower of hanoi problem simulation
+# Tower of Hanoi Simulation
 
-<p align="center">
-  <img height="126px" width="450px" alt="Screenshot" src="https://cdn.jsdelivr.net/gh/ayonious/tower-of-hanoi-simulation@master/documentation/hanoisimulation.gif">
-</p>
+A Java desktop app that animates moving discs from the first peg to the last, without placing a larger disc on a smaller one.
 
-## input
-1. number or pegs
-2. number of discs
+![Tower of Hanoi animation](documentation/hanoisimulation.gif)
 
-## output
-Animated simulation of discs getting sorted out
+## What you need
 
-## Running instructions:
+A Java Development Kit (JDK) and a graphical desktop. No extra libraries are needed.
 
-1. cd src
-2. javac Flicker.java
-3. java Flicker
-4. now input the number of pegs and discs and enter
-5. enjoy the simultion
+## How to run
+
+From the project folder:
+
+```sh
+javac -d build src/*.java
+java -cp build Flicker
+```
+
+Enter the **number of discs first, then the number of pegs**:
+
+```text
+4 3
+```
+
+This animates a puzzle with 4 discs and 3 pegs. Use **1–9 discs** and **3–9 pegs**.
+
+Close the window to exit. Run the second command again to try another puzzle.
